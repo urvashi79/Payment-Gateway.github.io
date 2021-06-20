@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="donate22.css">
+    <link rel="stylesheet" href="background.css">
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        /* background: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)),url('children.jpg'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        height:auto;
+        background-image: url(mother-son.jpg);
+        /* background-image:repeating-linear-gradient(#9b59b6,#B53471,#ffffff,#e67e22); */ */
+    }
+    </style>
+    <body>
+       <div class="wrapper">
+
+                <nav class="navbar">
+                
+                    <img class="logo" src="logo.png" href="index.html">
+                    
+                    <ul>
+                        <li><a class="active" href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="donate.html">DONATE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="column">  
+                    <form>
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your fullname">
+                      <label for="lname">Email</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your Email">
+                      <label for="country">Where to donate</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your State">
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HNQ5YCF1OrAjnR" async> </script> </form>
+                    </form>    
+            </div>
+           </div>         
+</body>
+</html>

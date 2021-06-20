@@ -1,0 +1,38 @@
+.column {
+    padding: 100px;
+    margin-top: 100px;
+   float: left;
+   width: 533px;
+   align-items: center;
+   padding: 40px; 
+   color: black;
+   background-image:radial-gradient(#747d8c,#ccc,#aaa69d);
+   position: relative;
+   left: 2%;
+   width: 52%;
+   border-radius: 5px;
+   color: black;
+} 
+/* Style inputs */
+ 
+ input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+   color: black;
+ }
+ 
+ input[type=submit] {
+   background-color: black;
+   color: pink;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   background-color: brown;
+ } 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="index.html">
+        
+</head>
+
+<style>
+    body{
+     margin: 10px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100%;
+    height:auto;
+     position: fixed;
+    opacity:0.6;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100%;
+    opacity: 1;
+    height:auto;
+    position: fixed;
+} 
+
+
+#slider {
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+     /* opacity: 0.6;  */
+    margin-top: -10%;
+ animation: 8s slider infinite;
+
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+
+}
+@keyframes slider {
+    0%{
+        left: 0;
+
+    }
+    20%{
+        left: 0;
+    } 
+    
+     25%{ 
+         left:-100%; 
+     }
+        
+    
+     45%{ 
+           left: -100%;
+        
+    }
+    50%{
+        left:-200%;
+        
+    }
+    70%{
+        left: -200%;
+        
+    }
+    75%{
+        left: -300%;
+        
+     } 
+     95%{ 
+        left: -300%;
+        
+    } 
+    100%{ 
+        left: -400%;
+        
+    }
+     
+}
+
+
+</style>
+<body>
+   <div class="wrapper">
+       
+            <nav class="navbar">
+                
+                <img class="logo" src="logo.png"  href="index.html">
+                
+                
+                <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+          </nav>
+          <div id="slider">
+            <figure>
+                <img src="hellooooo.jpg">
+                <img src="silder3.jpg">
+                <img src="37777.jpg"> 
+                <img src="slider256.jpg"> 
+                 <img src="hellooooo.jpg"> 
+                
+            </figure>
+        </div>
+</div>
+    
+</body>
+</html>

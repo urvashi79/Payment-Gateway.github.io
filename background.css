@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background-size: cover;
+    height: 100vh;
+    margin-top:72px;
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    /*background: rgba(0,0,0,0.5);*/
+    
+}
+.navbar .logo{
+        background-image: url(logo.png);
+        right: auto;
+        height: 70px;
+        border-radius: 20px;
+        position: relative;
+        border-radius: 100px;
+        background-image: linear-gradient(#a4b0be,#EAB543,#25CCF7) ;
+        margin-top: 10px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+    border-radius:20px; 
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+    border-radius: 10px;
+}
+.wrapper .center{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h6{
+        float:left;
+        margin-left:-200px;
+        font-size: 23px;
+        color: white;
+        font-style:italic;
+        
+    }
+.center h6 span{
+    color: water;
+    text-shadow:0 0 3px #ff0000, 0 0 15px #0000ff;
+    text-decoration:underline;
+    font-variant:small-caps;
+}
+.center h1{
+    
+    font-family:"sans-serif";
+    font-weight:bold;
+    width: 900px;
+    text-align: center;
+    margin-top:150px;
+    
+}
+.center .buttons{
+    margin: 35px 280px;
+    font-family:"sans-serif";
+} 
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #151515;
+    border-radius: 25px;
+    transition: .4s;
+}
+.buttons .btn2{
+    margin-left: 100px;
+    color:#f2f2fc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

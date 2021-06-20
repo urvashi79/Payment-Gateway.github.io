@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="contack.css">
+</head>
+<style>
+    body{
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100%;
+    opacity: 1;
+    height:auto;
+    position: fixed; 
+  background-image: url(contactus555.jpg);
+  animation: color-me-in 5s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+0% {
+    background-image: url(contactus4.jpg);
+ }
+  /* You could think of as "step 2" */
+50% {
+    background-image: url(contacus1.jpg);
+    height: 110%;
+}
+}
+ h1{
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    margin-top: -2px;
+ } 
+
+    .maineediv{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    left: 25%;
+    top: -66%;
+    opacity: 0.59;
+    transform: translate(-50%,50%);
+    background-image: url(donateme.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 10px black;
+} 
+
+
+
+    </style>
+    <body>
+       <div class="wrapper">
+           
+                <nav class="navbar">
+                    
+                    <img class="logo" src="logo.png"  href="index.html">
+                    
+                    <ul>
+                        <li><a class="active" href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="donate.html">DONATE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="maineediv"></div>
+                </nav>
+                <div class="column">  
+                    <form>
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your fullname">
+                      <label for="lname">Email</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your Email">
+                      <label for="country">Leave Us Your Message</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Message">
+                     <input type="submit">
+                      
+                    </form>
+                    
+
+                
+               
+        
+    </body>
+    </html>
+
+
+    
